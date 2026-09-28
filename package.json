@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fieldetag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Field timestamps and etag durations for scripts and CI receipts.",
+  "bin": {
+    "fieldetag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fieldetag.git"
+  },
+  "homepage": "https://theworker02.github.io/fieldetag/",
+  "keywords": [
+    "field",
+    "etag",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
